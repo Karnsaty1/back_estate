@@ -21,7 +21,7 @@ const razorpay = new Razorpay({
 app.use(cookieParser());
 app.use(express.json());
 app.use(cors({
-  origin: [process.env.FRONT_END,'https://estate-frontend-ten.vercel.app','https://estate-frontend-gdnic4lae-satyam-karns-projects.vercel.app','https://estate-frontend-6vfhnw188-satyam-karns-projects.vercel.app'], 
+  origin: [process.env.FRONT_END,'https://front-estate-two.vercel.app','https://estate-frontend-gdnic4lae-satyam-karns-projects.vercel.app','https://estate-frontend-6vfhnw188-satyam-karns-projects.vercel.app'], 
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   credentials: true,
 }));
